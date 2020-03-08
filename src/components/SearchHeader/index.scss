@@ -1,0 +1,57 @@
+// 顶部搜索框
+.searchbox {
+  position: absolute;
+  height: 34px;
+  width: 100%;
+  top: 25px;
+  padding: 0 10px 0 18px;
+  
+  .search {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 3px;
+    .location {
+      padding: 0 5px 0 10px;
+      span {
+        line-height: 34px;
+      }
+      i {
+        font-size: 12px;
+        margin-left: 2px;
+      }
+    }
+    .search-input {
+      padding-left: 25px;
+      border-left: 1px solid #ccc;
+      position: relative;
+      font-size: 14px;
+      color: #bbb;
+      // input {
+      //   display: block;
+      //   height: 100%;
+      //   outline: none;
+      //   border: none;
+      //   &::-webkit-input-placeholder {
+      //     color: #bbb;
+      //     font-size: 12px;
+      //     line-height: 34px;
+      //   }
+      // }
+      .iconfont.icon-seach {
+        font-size: 16px;
+        color: #bbb;
+        position: absolute;
+        left: 3px;
+        top: 0;
+      }
+    }
+  }
+  .icon-map {
+    height: 100%;
+    width: 34px;
+    font-size: 28px;
+    color: #fff;
+  }
+}
